@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LR29</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="company_name">Пицца и закуски</string>
+    <string name="restaurant_image">Изображение ресторана</string>
+    <string name="home_text">С тех пор, как мы открыли свои двери в 2022 году, "Пицца и закуски" заработала репутацию одного из лучших ресторанов Пинского района.</string>
+    <string name="main_view_pager">Главный ViewPager для навигации по вкладкам</string>
+    <string name="main_tab_layout">Вкладки для переключения между разделами приложения</string>
+    <string name="order_name_hint">Пожалуйста, введите свое имя</string>
+    <string name="order_details_hint">Пожалуйста, введите свой заказ</string>
+
+</resources>
