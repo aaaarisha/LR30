@@ -13,12 +13,18 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".PizzaDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
             android:name=".OrderActivity"
             android:label="Создать заказ"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
