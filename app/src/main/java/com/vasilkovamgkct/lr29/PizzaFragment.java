@@ -14,9 +14,8 @@ public class PizzaFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        RecyclerView pizzaRecycler = (RecyclerView) inflater.inflate(
-                R.layout.fragment_pizza, container, false);
-
+        View rootView = inflater.inflate(R.layout.fragment_pizza, container, false);
+        RecyclerView pizzaRecycler = rootView.findViewById(R.id.pizza_recycler);
         String[] pizzaNames = new String[Pizza.pizzas.length];
         for (int i = 0; i < pizzaNames.length; i++) {
             pizzaNames[i] = Pizza.pizzas[i].getName();
